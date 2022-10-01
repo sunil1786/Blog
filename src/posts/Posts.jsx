@@ -1,9 +1,16 @@
-import "./posts.css"
+import React from "react";
+import "./posts.css";
+import Post from "../post/Post";
 
 export default function Posts() {
   return (
-    <div className="posts">
-    Posts
+  
+    <div className="Posts">
+      <Post/>
+      <Post/>
+      <Post/>
+      <Post/>
     </div>
+    
   )
 }

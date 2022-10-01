@@ -1,3 +1,4 @@
+import React from "react";
 import './header.css'
 import img1 from './homeimg.jpg'
 
